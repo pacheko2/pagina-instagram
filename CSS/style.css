@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+    
+
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background: rgb(249,249,249);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    width: 60%;
+    height: 100vh;
+
+}
+
+.cellphone{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+}
+
+.cellphone img{
+    height: 44rem
+
+}
+
+.instagram-account{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 339px;
+    height: 350px;
+    background: white;
+    border: 1px solid lightgray;
+    padding: 10px 0;
+
+}
+
+
+.profile-photo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+    height: 100px;
+    width: 100px;
+    border: 1px solid #efefef;    
+    
+}
+
+.continue-account{
+    background: #0095f6;
+    border-radius: 4px;
+    color: #fff;
+    text-align: center;
+    padding: 5px 9px;
+    height: 30px;
+    width: 257px;
+    font-weight: 500;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+
+}
+
+.change-account{
+    color: #0095f6;
+    margin-top: 1rem; 
+
+}
+
+.minhafoto{
+    width: 100%;
+    height: 100%;
+}
+
+.divchangeaccount{
+    flex-direction: row;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+}
+
+@media (max-width: 1024px) {
+
+    .instagram-wrapper{
+
+        width: 90%;
+
+    }
+
+
+}
+
+@media (max-width: 650px) {
+
+    .instagram-wrapper{
+
+        width: 90%;
+
+    }
+
+    .cellphone{
+
+        display: none;
+
+    }
+
+    .instagram-account{
+
+        width: 100%;
+
+    }
+
+}
